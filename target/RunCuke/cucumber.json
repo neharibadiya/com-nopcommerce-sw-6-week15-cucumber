@@ -1,0 +1,254 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify user should navigate to Desktops page successfully",
+        "description": "",
+        "id": "computer-test;verify-user-should-navigate-to-desktops-page-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I click on Computer Tab",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I Click on Desktops link",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I verify Desktops text",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Computer Test",
+    "description": "As a use I want to go on computer page",
+    "id": "computer-test",
+    "keyword": "Feature",
+    "uri": "computerPage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 11,
+        "name": "Verify the error message with invalid credentials",
+        "description": "",
+        "id": "login-test;verify-the-error-message-with-invalid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I am on homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on login link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I enter email \"test123@gmail.com\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I enter Password \"password123\"",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I click on Login button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "I am unable to login with invalid credentials",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@sanity"
+          },
+          {
+            "line": 10,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login Test",
+    "description": "As a user I would like to login into nop commerce website",
+    "id": "login-test",
+    "keyword": "Feature",
+    "uri": "loginpage.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 13,
+        "name": "Verify that firstName,lastName,email,password and confirmPassword fields are mandatory",
+        "description": "",
+        "id": "register-page;verify-that-firstname,lastname,email,password-and-confirmpassword-fields-are-mandatory",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I am on homepage",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "I click on Register link",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "I click on register button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 17,
+            "name": "Verify the firstName error message",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 18,
+            "name": "Verify the lastName error message",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 19,
+            "name": "Verify the email error message",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 20,
+            "name": "Verify the password error message",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 21,
+            "name": "Verify the confirmPassword error message",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@sanity"
+          },
+          {
+            "line": 12,
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Register page",
+    "description": "As a user i want to register with nopcommerce website",
+    "id": "register-page",
+    "keyword": "Feature",
+    "uri": "registerpage.feature"
+  }
+]
